@@ -22,6 +22,7 @@ import java.util.*
 import kotlin.random.Random
 
 class Bluetooth : AppCompatActivity() {
+
     private lateinit var binding: Player2Binding
     private lateinit var bindingBl : PopupBluetoothBinding
     private lateinit var bindingData: DatabaseBinding
@@ -31,6 +32,7 @@ class Bluetooth : AppCompatActivity() {
     private lateinit var bindingSetting: SettingBinding
     private val sharedPrefFile = "PreferenceKotlin"
     private lateinit var viewModel: MainActivityViewModel
+
     //we use two arrays whose elements correspond to the boxes, and they take value true if they have been played
     private var playedDice = arrayListOf(false,false,false,false,false,false,false,false,false,false,false,false,false)
     private var playedDice2 = arrayListOf(false,false,false,false,false,false,false,false,false,false,false,false,false)
