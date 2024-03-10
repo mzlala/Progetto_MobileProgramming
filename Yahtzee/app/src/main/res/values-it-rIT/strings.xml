@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yahtzee!</string>
+
+    <string name="launch">Lancia</string>
+    <string name="draw">Pareggio!</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="you">Tu</string>
+    <string name="name">Il tuo nome:</string>
+    <string name="winner">Vincitore:</string>
+    <string name="play">Gioca</string>
+    <string name="score">Punteggio:</string>
+    <string name="rematch">Rigioca</string>
+    <string name="quit">Esci</string>
+    <string name="your_score">Punteggio</string>
+    <string name="rules">Regole</string>
+
+    <string name="final_scores">Punteggi finali</string>
+    <string name="loseProgress">Perderai tutti i tuoi progressi</string>
+    <string name="leaveGame">Sei sicuro di voler lasciare il gioco?</string>
+    <string name="opponents_name">Nomi degli sfidanti</string>
+
+    <string name="group_pc4">Gruppo PC+4</string>
+    <string name="link">Dettagli dell\'applicazione</string>
+
+    <string name="settings">Impostazioni</string>
+    <string name="select_your_dice">I tuoi dadi</string>
+    <string name="sounds">Suoni</string>
+    <string name="save_settings">Salva e esci</string>
+    <string name="select_player2_dice">Dadi del secondo giocatore</string>
+
+    <string name="prepare_the_match">Prepara il gioco!</string>
+    <string name="list_devices">Lista Dispositivi</string>
+    <string name="end_game">Fine della partita</string>
+    <string name="start_game">Inizia la partita</string>
+    <string name="host_game">Ospita</string>
+    <string name="status">Stato</string>
+
+    <string name="single_player">Solitario</string>
+    <string name="local_multiplayer">Multiplayer Locale</string>
+    <string name="you_vs_robot">VS Robot</string>
+    <string name="bluetooth_match">Bluetooth</string>
+    <string name="only_tabs">Tabella</string>
+    <string name="only_tabs_2">Tabelle</string>
+
+    <string name="tvOneRules">Una partita consiste in 13 turni, lo scopo è totalizzare maggior punti possibili.
+        In ogni turno bisogna scegliere una combinazione in cui giocare i propri dadi, questa combinazione non potrà essere riutilizzata.</string>
+    <string name="tvTwoRules">I dadi possono essere lanciati fino a tre volte in un turno per creare una delle possibili
+        combinazioni di punteggio.</string>
+    <string name="tvFourRules">Puoi bloccare i dadi, premendo su di essi, dopo il primo e il secondo lancio per aumentare le probabilità
+        di un buon punteggio. I dadi che sono stati bloccati non verranno rilanciati, ma possono essere sbloccati in qualsiasi momento. </string>
+    <string name="tvFiveRules">Quando si desidera giocare una combinazione, si può cliccare sulla cella adiacente per visualizzare il
+        suggerimento sui punti effettuati.</string>
+    <string name="tvPlay">Per confermare si preme il tasto "GIOCA". </string>
+    <string name="tvSixRules">Se raggiungi almeno 63 punti nella prima colonna, guadagni 35 punti.</string>
+    <string name="tvHeightRules">Il gioco termina quando tutte le caselle sono state segnate.\nSe sono coinvolti due giocatori,
+        il vincitore è colui che ottiene il maggior numero di punti.</string>
+    <string name="combinations">Combinazioni</string>
+    <string name="tvNineRules">Ottieni il massimo dei dadi con il lato mostrato nell\'immagine accanto.\nIl punteggio sarà la somma di questi.</string>
+    <string name="tvTenRules">Tris, Poker e Chance.\nValgono la somma di tutti i tuoi dadi.</string>
+    <string name="tvElevenRules">Full\nTris e coppia | 25 punti.</string>
+    <string name="tvTwelveRules">Piccola scala\n4 dadi consecutivi | 30 punti.</string>
+    <string name="tvFourteenRules">Yahtzee\n5 dadi con lo stesso lato | 50 punti.</string>
+    <string name="tvThirteenRules">Grande scala\n5 dadi consecutivi | 40 punti.</string>
+
+    <string name="connection_failed">Connessione Fallita</string>
+    <string name="connected">Connesso</string>
+    <string name="connecting">Connessione</string>
+    <string name="listening">In ascolto</string>
+    <string name="text_list_view">Per giocare con un amico bisogna essersi associati almeno una volta nel menu bluetooth nelle impostazioni del telefono.\n\n
+                Premi \"Ospita\" per permettere ad altri dispositivi di connettersi con te.\n\n
+                Premi \"Lista Dispositivi\" per visualizzare i tuoi dispositivi accoppiati e selezionane uno che ha già premuto \"Ospita\".</string>
+
+    <string name="robotWinner">I Robot conquisteranno il mondo!</string>
+
+    <string name="latest_scores">MEDIA\nPUNTI</string>
+    <string name="disconnected">Il tuo avversario si è disconnesso</string>
+    <string name="robot">Robot</string>
+    <string name="about_us">About Us</string>
+    <string name="delete">Delete</string>
+</resources>

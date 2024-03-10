@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card"
+    tools:context=".db.BarChartActivity">
+
+    <ImageView
+        android:id="@+id/imSingle"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/single_player"
+        app:layout_constraintBottom_toBottomOf="@+id/imMulti"
+        app:layout_constraintStart_toStartOf="@+id/barChart"
+        app:layout_constraintTop_toTopOf="@+id/imMulti"
+        app:srcCompat="@drawable/single_player" />
+
+    <ImageView
+        android:id="@+id/imMulti"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/local_multiplayer"
+        app:layout_constraintBottom_toTopOf="@+id/barChart"
+        app:layout_constraintEnd_toStartOf="@+id/imRobot"
+        app:layout_constraintStart_toEndOf="@+id/imSingle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/versus" />
+
+    <ImageView
+        android:id="@+id/imRobot"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/you_vs_robot"
+        app:layout_constraintBottom_toBottomOf="@+id/imMulti"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/imMulti"
+        app:srcCompat="@drawable/player" />
+
+    <ImageView
+        android:id="@+id/imBlue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/bluetooth_match"
+        app:layout_constraintBottom_toBottomOf="@+id/imRobot"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/imRobot"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <ImageView
+        android:id="@+id/imOnly"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/only_tabs"
+        app:layout_constraintBottom_toBottomOf="@+id/imBlue"
+        app:layout_constraintEnd_toStartOf="@+id/imOnly2"
+        app:layout_constraintStart_toEndOf="@+id/imBlue"
+        app:layout_constraintTop_toTopOf="@+id/imOnly2"
+        app:srcCompat="@drawable/card1" />
+
+    <ImageView
+        android:id="@+id/imOnly2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="22dp"
+        android:contentDescription="@string/only_tabs_2"
+        app:layout_constraintBottom_toBottomOf="@+id/imBlue"
+        app:layout_constraintEnd_toEndOf="@+id/barChart"
+        app:layout_constraintTop_toTopOf="@+id/imBlue"
+        app:srcCompat="@drawable/card2" />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

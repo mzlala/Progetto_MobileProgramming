@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Yahtzee!</string>
+
+    <string name="_0" translatable="false">0</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="_10" translatable="false">10</string>
+    <string name="_11" translatable="false">11</string>
+    <string name="_12" translatable="false">12</string>
+    <string name="_13" translatable="false">13</string>
+
+    <string name="_35" translatable="false">35</string>
+    <string name="set_bonus" translatable="false">0/63</string>
+
+    <string name="launch">Launch</string>
+    <string name="winner">Winner:</string>
+    <string name="play">Play</string>
+    <string name="score">Score:</string>
+    <string name="name">Your name:</string>
+    <string name="draw">Draw!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rematch">Rematch</string>
+    <string name="quit">Quit</string>
+    <string name="your_score">Your Score</string>
+    <string name="end_game">End Game</string>
+    <string name="host_game">Host Game</string>
+    <string name="list_devices">List Devices</string>
+    <string name="status">Status</string>
+    <string name="start_game">Start Game</string>
+    <string name="prepare_the_match">Prepare the match!</string>
+    <string name="rules">Rules</string>
+    <string name="settings">Settings</string>
+    <string name="you">You</string>
+    <string name="robotWinner">Robots will conquer the world!</string>
+
+    <string name="loseProgress">You will lose all your progress</string>
+    <string name="leaveGame">Are you sure you want to leave the game?</string>
+    <string name="opponents_name">Opponent Names</string>
+    <string name="vs" translatable="false">VS</string>
+    <string name="player_2" translatable="false">Player 2</string>
+
+    <string name="group_pc4">Group PC+4</string>
+    <string name="link">Application details</string>
+    <string name="link_wiki" translatable="false">https://it.wikipedia.org/wiki/Yahtzee</string>
+    <string name="cinelli_alessia" translatable="false">Cinelli Alessia</string>
+    <string name="conti_giuseppe" translatable="false">Conti Giuseppe</string>
+    <string name="reali_manuela" translatable="false">Reali Manuela</string>
+    <string name="tozzi_andrea" translatable="false">Tozzi Andrea</string>
+
+    <string name="single_player">Single Player</string>
+    <string name="local_multiplayer">Local Multiplayer</string>
+    <string name="you_vs_robot">VS Robot</string>
+    <string name="bluetooth_match">Bluetooth Match</string>
+    <string name="only_tabs">Only Tabs</string>
+    <string name="only_tabs_2">Only Tabs 2</string>
+
+    <string name="select_your_dice">Select your Dice</string>
+    <string name="select_player2_dice">Select Player2 Dice</string>
+    <string name="sounds">Sounds</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="final_scores">Final Scores</string>
+
+    <string name="tvOneRules">A game consists of 13 rounds, the aim is to score as many points as possible.
+        In each round you must choose a combination in which to play your dice, this combination cannot be reused.</string>
+    <string name="tvTwoRules">Dice can be rolled up to three times in a turn to make one of the possible scoring combinations.</string>
+    <string name="tvFourRules">You can lock the dice by pressing on them after the first and second roll to increase the chances
+        of a good score. Dice that have been locked will not be rerolled, but can be unlocked at any time.</string>
+    <string name="tvFiveRules">When you want to play a combination, you can click on the adjacent cell to view the
+        suggestion on the points made.</string>
+    <string name="tvPlay">To confirm, press the \"PLAY\" button.</string>
+    <string name="tvSixRules">If you reach at least 63 points in the first column, you unlock a 35 bonus points.</string>
+    <string name="tvHeightRules">The game ends when all categories have been scored.\nThe winner is the player who scores the most
+        points when there are two players involved.</string>
+    <string name="tvTenRules">Three, Four and Chance.\nIt scores the sum of all the your dice.</string>
+    <string name="tvNineRules">Get the maximum of dice with this side.\nIt scores the sum of these specific dice only.</string>
+    <string name="tvTwelveRules">Small Straight\n4 consecutive dice | 30 points.</string>
+    <string name="tvThirteenRules">Large Straight\n5 consecutive dice | 40 points.</string>
+    <string name="tvElevenRules">Full House\nThree of a kind and a pair | 25 points.</string>
+    <string name="tvFourteenRules">Yahtzee\n5 dice with same side | 50 points.</string>
+    <string name="combinations">Combinations</string>
+
+    <string name="listening">Listening</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="connection_failed">Connection Failed</string>
+
+    <string name="text_list_view">For play with a friend you must be paired at least one times in your devices bluetooth\'s settings.\n\n
+        Click \"Host Game\" to allow other devices to connect with you.\n\n
+        Click \"List Devices\" to show the your bonded devices and then press on a device that has already pressed \"Host Game\".</string>
+
+    <string name="latest_scores">AVARAGE\nPOINTS</string>
+    <string name="disconnected">Your opponent has disconnected</string>
+    <string name="robot">Robot</string>
+    <string name="about_us">About Us</string>
+    <string name="database">database</string>
+    <string name="delete">Delete</string>
+
+
+</resources>
+

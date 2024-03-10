@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dice">8dp</dimen>
+    <dimen name="tvPoint">58dp</dimen>
+</resources>
